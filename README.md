@@ -1,4 +1,4 @@
 ExtJSDemo
 =========
 
-A simple web app using ExtJS and asp.NET, along with SignalR to implement a chat room like real-time conversation interface.
+A simple web app implementing MVC pattern by ExtJS and asp.NET MVC, along with SignalR to create a real-time chat-room like conversation function.
