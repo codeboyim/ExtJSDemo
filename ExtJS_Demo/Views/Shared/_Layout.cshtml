@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/extjs/resources/css/ext-all.css")"/>
+    <style>
+        #chat-list {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+            #chat-list li {
+                margin: 0px;
+                padding: 5px;
+            }
+
+                #chat-list li i {
+                    margin-right: 5px;
+                }
+
+                #chat-list li.right i {
+                    margin: 0 0 0 5px;
+                    float: right;
+                }
+
+                #chat-list li.right {
+                    text-align: right;
+                }
+    </style>
+</head>
+<body>
+    @RenderBody()
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.6.4.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.signalR-1.1.3.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/extjs/ext-debug.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/src/app.js")"></script>
+</body>
+</html>
+
